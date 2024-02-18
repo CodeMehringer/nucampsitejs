@@ -60,6 +60,12 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><i
                                 class="fa-solid fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
+                <!-- Weather Component -->
+                <div id="weather" class="d-none d-md-flex align-items-center">
+                    <i id="weather-icon"></i>
+                    <span id="weather-temp"></span>
+                    <span id="weather-description" class="d-none d-lg-inline"></span>
+                </div>
                 <span class="navbar-text ms-auto">
                     <a role="button" data-bs-toggle="modal" data-bs-target="#loginModal">
                         <i class="fa-solid fa-right-to-bracket"></i> Login
@@ -169,7 +175,7 @@
                         <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
                         <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
                     </div>  
-                    <div class "btn-group" id="carouselButton"> 
+                    <div class="btn-group" id="carouselButton"> 
                         <button class="btn btn-danger btn-sm"id="carouselPause">
                             <i class="fa-solid fa-pause " id="faButton"></i>
                         </button>
@@ -308,10 +314,10 @@
             </div>
         </div>
     </footer>
-
+    <script src="scripts.js" type="module"></script>
     <!-- Bootstrap JavaScript plugins -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="scripts.js"></script>
+    
 </body>
 
 </html>
