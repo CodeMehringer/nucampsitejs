@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nucamp/webfun-nucampsite-cdn.git"
+    "url": "git+https://github.com/CodeMehringer/nucampsitejs.git"
   },
   "keywords": [],
   "author": "Jennifer Mehringer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nucamp/webfun-nucampsite-cdn/issues"
+    "url": "https://github.com/nucamp/webfun-nucampsitejs-cdn/issues"
   },
-  "homepage": "https://github.com/nucamp/webfun-nucampsite-cdn#readme",
+  "homepage": "https://github.com/nucamp/webfun-nucampsitejs-cdn#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3"
