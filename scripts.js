@@ -2,19 +2,9 @@ const url = 'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}
 console.log('javascript connected!');
 
 //const { initializeApp } = require('firebase/app'); // this does not require module and no imports are required here 
-//import { initializeApp } from "firebase/app";
-//import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
-// const firebaseConfig = {
-//   apiKey: "f23fa16d3e899275e084da611c2e631f",
-//   authDomain: "YOUR_AUTH_DOMAIN",
-//   projectId: "YOUR_PROJECT_ID",
-//   storageBucket: "YOUR_STORAGE_BUCKET",
-//   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-//   appId: "YOUR_APP_ID"
-// };
 
-//const app = initializeApp(firebaseConfig);
+
 
 const carousel = new bootstrap.Carousel('#homeCarousel', {
     interval: 5000,
